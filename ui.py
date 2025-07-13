@@ -33,7 +33,7 @@ class DownloadThread(QThread):
 class MainWindow(QWidget):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Modern YT Downloader")
+        self.setWindowTitle("YT Downloader")
         self.apply_styles()
         layout = QVBoxLayout()
         self.url_input = QLineEdit()
